@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/navHome">
+    <fragment
+        android:id="@+id/NavSettings"
+        android:name="com.example.madfinal.ClientNavigation.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+
+    <fragment
+        android:id="@+id/NavMakeOffer"
+        android:name="com.example.madfinal.AdminNavigation.TechnicianMakeOffer"
+        android:label="fragment_technician_make_offer"
+        tools:layout="@layout/fragment_technician_make_offer" />
+    <fragment
+        android:id="@+id/navHome"
+        android:name="com.example.madfinal.AdminNavigation.Hometech"
+        android:label="fragment_hometech"
+        tools:layout="@layout/fragment_hometech" />
+    <fragment
+        android:id="@+id/MyService"
+        android:name="com.example.madfinal.AdminNavigation.MySevices"
+        android:label="fragment_my_sevices"
+        tools:layout="@layout/fragment_my_sevices" />
+    <fragment
+        android:id="@+id/Myrequests"
+        android:name="com.example.madfinal.AdminNavigation.MyrRequests"
+        android:label="fragment_myr_requests"
+        tools:layout="@layout/fragment_myr_requests" />
+    <fragment
+        android:id="@+id/navProfile"
+        android:name="com.example.madfinal.AdminSide.AdminProfile"
+        android:label="fragment_admin_profile"
+        tools:layout="@layout/fragment_admin_profile" />
+</navigation>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "839134069663",
+    "firebase_url": "https://fastfixtemp1.firebaseio.com",
+    "project_id": "fastfixtemp1",
+    "storage_bucket": "fastfixtemp1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839134069663:android:fd1fd619f98559b92bb3aa",
+        "android_client_info": {
+          "package_name": "com.example.madfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839134069663-0eer8iqjrba2gk72rclhe8al07v3eikb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.madfinal",
+            "certificate_hash": "13b1b766da9ffd888cf04d1325f63bbc02311af2"
+          }
+        },
+        {
+          "client_id": "839134069663-u32hup6ditlcfse6r5b8cda9hm8mc3kt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARKJ297IXgb7pEswzK-v_TyzmFi0bnXv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839134069663-u32hup6ditlcfse6r5b8cda9hm8mc3kt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

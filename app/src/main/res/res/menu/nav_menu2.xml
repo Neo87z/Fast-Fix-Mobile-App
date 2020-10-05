@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+  <item
+      android:id="@+id/navHome"
+      android:icon="@drawable/ic_menu"
+      android:title="@string/NavHome"/>
+    <item
+        android:id="@+id/NavMakeOffer"
+        android:icon="@drawable/ic_menu"
+        android:title="Make New Service"/>
+  <item
+      android:id="@+id/MyService"
+      android:icon="@drawable/ic_menu"
+      android:title="My Services"/>
+  <item
+      android:id="@+id/Myrequests"
+      android:icon="@drawable/ic_menu"
+      android:title="My Requests"/>
+    <item
+        android:id="@+id/navProfile"
+        android:icon="@drawable/ic_menu"
+        android:title="@string/NavProfile"/>
+  <item
+      android:id="@+id/NavSettings"
+      android:icon="@drawable/ic_menu"
+      android:title="@string/NavSettings"/>
+  <item
+      android:id="@+id/Logout"
+      android:icon="@drawable/ic_menu"
+      android:title="@string/NavLogout"/>
+
+
+
+
+
+</menu>

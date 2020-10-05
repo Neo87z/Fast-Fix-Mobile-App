@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/navHome">
+    <fragment
+        android:id="@+id/navHome"
+        android:name="com.example.madfinal.ClientNavigation.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/NavRequest"
+        android:name="com.example.madfinal.ClientNavigation.MakeRequest"
+        android:label="fragment_make_request"
+        tools:layout="@layout/fragment_make_request" />
+    <fragment
+        android:id="@+id/NavSettings"
+        android:name="com.example.madfinal.ClientNavigation.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/NavViewMyRequest"
+        android:name="com.example.madfinal.ClientNavigation.ViewRequest"
+        android:label="fragment_view_request"
+        tools:layout="@layout/fragment_view_request" />
+    <fragment
+        android:id="@+id/navProfile"
+        android:name="com.example.madfinal.ClientNavigation.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
