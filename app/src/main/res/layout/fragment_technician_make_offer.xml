@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/newbg"
+    android:layout_height="match_parent"
+
+    tools:context=".AdminNavigation.TechnicianMakeOffer">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <View
+            android:id="@+id/topview"
+            android:layout_width="409dp"
+            android:layout_height="71dp"
+            android:alpha="0.7"
+            android:background="#33213A"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView63"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="52dp"
+            android:text="@string/ReqRec"
+            android:textAlignment="center"
+            android:textColor="#FBFBFB"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/topview"
+            app:layout_constraintTop_toTopOf="@+id/topview" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="98dp"
+            android:layout_height="70dp"
+            android:src="@drawable/png"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/topview2"
+            android:layout_width="344dp"
+            android:layout_height="530dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="32dp"
+            android:alpha="0.45"
+            android:background="#020202"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView63" />
+
+        <EditText
+            android:id="@+id/Ex_EsitamtedDeliver"
+            android:layout_width="307dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/textbox"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/textView34"
+            app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+        <EditText
+            android:id="@+id/Ex_AbotService"
+            android:layout_width="307dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/textbox"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/textView32"
+            app:layout_constraintTop_toBottomOf="@+id/textView67" />
+
+        <EditText
+            android:id="@+id/Ex_priceRange"
+            android:layout_width="307dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/textbox"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+        <EditText
+            android:id="@+id/Ex_ServicEtype"
+            android:layout_width="307dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/textbox"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/textView67"
+            app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+        <TextView
+            android:id="@+id/displayName"
+            android:layout_width="307dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/textbox"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/textView28"
+            app:layout_constraintTop_toBottomOf="@+id/topview" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/Stype"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/Ex_ServicEtype"
+            app:layout_constraintTop_toBottomOf="@+id/displayName" />
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/AboutS"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/Ex_AbotService"
+            app:layout_constraintTop_toBottomOf="@+id/Ex_ServicEtype" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/EsDdate"
+            android:textColor="#FBFBFB"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/Ex_EsitamtedDeliver"
+            app:layout_constraintTop_toBottomOf="@+id/Ex_AbotService" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/pRaneg"
+            android:textColor="#F3F3F3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/Ex_priceRange"
+            app:layout_constraintTop_toBottomOf="@+id/Ex_EsitamtedDeliver" />
+
+        <Button
+            android:id="@+id/SaevButton"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="128dp"
+            android:background="@drawable/button_default"
+            android:text="@string/SubmitService"
+            android:textColor="#ffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Ex_priceRange" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/techname"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/displayName"
+            app:layout_constraintTop_toBottomOf="@+id/topview" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

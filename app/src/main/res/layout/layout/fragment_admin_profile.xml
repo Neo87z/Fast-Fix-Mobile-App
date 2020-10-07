@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newbg"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AdminSide.AdminProfile">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/topview"
+            android:layout_width="403dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:alpha="0.7"
+            android:background="#33213A"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/topview2"
+            android:layout_width="372dp"
+            android:layout_height="508dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="20dp"
+            android:alpha="0.45"
+            android:background="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/topview" />
+
+        <TextView
+            android:id="@+id/userdob"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@drawable/textbox"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView54"
+            app:layout_constraintStart_toStartOf="@+id/useremail" />
+
+        <TextView
+            android:id="@+id/useruname"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@drawable/textbox"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView53"
+            app:layout_constraintStart_toStartOf="@+id/userdob" />
+
+        <TextView
+            android:id="@+id/useremail"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@drawable/textbox"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView56"
+            app:layout_constraintStart_toStartOf="@+id/usercno" />
+
+        <TextView
+            android:id="@+id/usercno"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="36dp"
+            android:background="@drawable/textbox"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView57"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/userfname"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@drawable/textbox"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView13"
+            app:layout_constraintStart_toStartOf="@+id/userlname" />
+
+        <TextView
+            android:id="@+id/userlname"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:background="@drawable/textbox"
+            android:gravity="center_vertical"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/textView49"
+            app:layout_constraintStart_toStartOf="@+id/useruname" />
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/txtdob"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView56"
+            app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/txtemail"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView57"
+            app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/txtPhone"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView56" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/txtlname"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView53"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/txtuname"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView54"
+            app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="180dp"
+            android:text="@string/txtfname"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView49"
+            app:layout_constraintTop_toBottomOf="@+id/topview" />
+
+        <Button
+            android:id="@+id/SaveButton"
+            android:layout_width="154dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="36dp"
+            android:background="@drawable/button_default"
+            android:text="Edit Profile"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/usercno" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="165dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/button_default"
+            android:text="Delete Account"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView57" />
+
+        <ImageView
+            android:id="@+id/imgpropic"
+            android:layout_width="106dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="152dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/topview"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/txtheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="88dp"
+            android:text="@string/txtTecProfile"
+            android:textColor="#FDFBFB"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/topview"
+            app:layout_constraintTop_toTopOf="@+id/topview" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

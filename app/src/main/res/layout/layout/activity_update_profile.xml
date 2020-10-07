@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClientNavigation.UpdateProfile">
+    <View
+        android:id="@+id/topview"
+        android:layout_width="409dp"
+        android:layout_height="76dp"
+        android:alpha="0.7"
+        android:background="#33213A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="122dp"
+        android:layout_height="74dp"
+        android:src="@drawable/png"
+        app:layout_constraintStart_toStartOf="@+id/topview"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/topview2"
+        android:layout_width="364dp"
+        android:layout_height="535dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:alpha="0.45"
+        android:background="#020202"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topview" />
+
+    <EditText
+        android:id="@+id/userdob"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:background="@drawable/textbox"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView54"
+        app:layout_constraintStart_toStartOf="@+id/useruname" />
+
+    <EditText
+        android:id="@+id/useruname"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:background="@drawable/textbox"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView53"
+        app:layout_constraintStart_toStartOf="@+id/userlname" />
+
+    <EditText
+        android:id="@+id/useremail"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:background="@drawable/textbox"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView56"
+        app:layout_constraintStart_toStartOf="@+id/userdob" />
+
+    <EditText
+        android:id="@+id/usercno"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:background="@drawable/textbox"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView57"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/useremail" />
+
+    <EditText
+        android:id="@+id/userfname"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="52dp"
+        android:background="@drawable/textbox"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/userlname"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:background="@drawable/textbox"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView49"
+        app:layout_constraintStart_toStartOf="@+id/userfname" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/txtdob"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView56"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txtemail"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView57"
+        app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/txtPhone"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView56" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/txtlname"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView53"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/txtuname"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView54"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="180dp"
+        android:text="@string/txtfname"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView49"
+        app:layout_constraintTop_toBottomOf="@+id/topview" />
+
+    <Button
+        android:id="@+id/SaveButton"
+        android:layout_width="121dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="144dp"
+        android:background="@drawable/button_default"
+        android:text="@string/Up"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="557dp" />
+
+    <ImageView
+        android:id="@+id/imgpropic"
+        android:layout_width="124dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topview"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txtheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="64dp"
+        android:text="@string/teh"
+        android:textColor="#FDFBFB"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/topview"
+        app:layout_constraintTop_toTopOf="@+id/topview" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

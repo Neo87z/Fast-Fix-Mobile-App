@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+  <item
+      android:id="@+id/navHome"
+      android:icon="@drawable/ic_menu"
+      android:title="@string/NavHome"/>
+    <item
+        android:id="@+id/NavRequest"
+        android:icon="@drawable/ic_menu"
+        android:title="@string/NavRequest"/>
+    <item
+        android:id="@+id/NavViewMyRequest"
+        android:icon="@drawable/ic_menu"
+        android:title="@string/ViewReq"/>
+  <item
+      android:id="@+id/NavOffer"
+      android:icon="@drawable/ic_menu"
+      android:title="@string/NavOffers"/>
+    <item
+        android:id="@+id/navProfile"
+        android:icon="@drawable/ic_menu"
+        android:title="@string/NavProfile"/>
+  <item
+      android:id="@+id/NavSettings"
+      android:icon="@drawable/ic_menu"
+      android:title="@string/NavSettings"/>
+  <item
+      android:id="@+id/Logout"
+      android:icon="@drawable/ic_menu"
+      android:title="@string/NavLogout"/>
+
+
+
+
+
+</menu>
