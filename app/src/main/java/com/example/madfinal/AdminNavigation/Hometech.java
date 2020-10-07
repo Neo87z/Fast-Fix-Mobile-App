@@ -112,7 +112,6 @@ public class Hometech extends Fragment {
                 new FirebaseRecyclerAdapter<ServiceRequests, TechSideRequestViewHolder>(options) {
                     @Override
                     protected void onBindViewHolder(@NonNull TechSideRequestViewHolder holder, int position, @NonNull final ServiceRequests model) {
-                        holder.AssingedTo.setText(model.getTitle());
                         holder.Description.setText(model.getDescription());
                         holder.Title.setText(model.getRequestID());
                         final String ID=model.getRequestID();

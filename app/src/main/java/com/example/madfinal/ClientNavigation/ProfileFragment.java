@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.madfinal.ClientSide.UpdateAccpunt;
 import com.example.madfinal.MainActivity;
 import com.example.madfinal.R;
 import com.example.madfinal.SessionManagement.SessionManagement;
@@ -28,6 +29,7 @@ import com.google.firebase.database.ValueEventListener;
 public class ProfileFragment extends Fragment {
     TextView fname,lname,uname,dob,email,contact;
     Button Del;
+    Button update;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -74,7 +76,14 @@ public class ProfileFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v= inflater.inflate(R.layout.fragment_profile, container, false);
-
+        update=v.findViewById(R.id.SaveButton);
+        update.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i1= new Intent(getContext(), UpdateAccpunt.class);
+                startActivity(i1);
+            }
+        });
         fname=v.findViewById(R.id.userfname);
         lname=v.findViewById(R.id.userlname);
         uname=v.findViewById(R.id.useruname);

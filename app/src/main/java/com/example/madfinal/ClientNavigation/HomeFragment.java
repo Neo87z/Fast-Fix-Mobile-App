@@ -112,9 +112,9 @@ public class HomeFragment extends Fragment {
                 new FirebaseRecyclerAdapter<TechnicianServices, TechnicianRequestViewHolder>(options) {
                     @Override
                     protected void onBindViewHolder(@NonNull TechnicianRequestViewHolder holder, int position, @NonNull final TechnicianServices model) {
-                        holder.AssingedTo.setText(model.getAboutServivce());
-                        holder.Description.setText(model.getAboutServivce());
-                        holder.Title.setText(model.getAboutServivce());
+
+                        holder.Description.setText(model.getServicetyep());
+                        holder.Title.setText(model.getPrice());
                     }
 
                     @NonNull

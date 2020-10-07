@@ -21,9 +21,8 @@ public class TechnicianRequestViewHolder extends RecyclerView.ViewHolder impleme
     public TechnicianRequestViewHolder(View itemView)
     {
         super(itemView);
-        Title=itemView.findViewById(R.id.Title);
-        Description=itemView.findViewById(R.id.Description);
-        AssingedTo=itemView.findViewById(R.id.Assingedto);
+        Title=itemView.findViewById(R.id.Description);
+        Description=itemView.findViewById(R.id.Title);
         UpdateButton=itemView.findViewById(R.id.ViewButton);
     }
 

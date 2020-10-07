@@ -13,50 +13,56 @@
         android:layout_width="match_parent"
         android:layout_height="100dp">
 
+        <Button
+            android:id="@+id/ViewButton"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/button_default"
+            android:text="@string/v"
+            android:textColor="#ffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/abs"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/o"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
         <TextView
             android:id="@+id/Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="16dp"
             android:text="TextView"
-            app:layout_constraintEnd_toStartOf="@+id/Description"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView17"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/Description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="36dp"
-            android:text="TextView"
-            app:layout_constraintBaseline_toBaselineOf="@+id/Title"
-            app:layout_constraintEnd_toStartOf="@+id/Assingedto"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/Title" />
-
-        <TextView
-            android:id="@+id/Assingedto"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            app:layout_constraintBaseline_toBaselineOf="@+id/Description"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/ViewButton"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/Description" />
-
-        <Button
-            android:id="@+id/ViewButton"
-            android:layout_width="120dp"
-            android:layout_height="45dp"
-            android:textColor="#ffff"
-            android:background="@drawable/button_default"
+            android:layout_marginStart="80dp"
             android:layout_marginTop="12dp"
-            android:text="@string/Update"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:text="TextView"
+            app:layout_constraintStart_toEndOf="@+id/textView60"
+            app:layout_constraintTop_toBottomOf="@+id/Title" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

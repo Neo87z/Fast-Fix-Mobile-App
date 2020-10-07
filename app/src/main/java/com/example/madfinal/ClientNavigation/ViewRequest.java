@@ -111,7 +111,6 @@ public class ViewRequest extends Fragment {
                             @Override
                             protected void onBindViewHolder(@NonNull MyRequestViewHolder holder, int position, @NonNull final ServiceRequests model)
                             {
-                                holder.AssingedTo.setText(model.getAssingedto());
                                 holder.Description.setText(model.getDescription());
                                 holder.Title.setText(model.getTitle());
                                 holder.UpdateButton.setOnClickListener(new View.OnClickListener() {

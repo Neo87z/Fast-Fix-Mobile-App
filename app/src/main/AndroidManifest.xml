@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ClientNavigation.UpdateProfile"></activity>
+        <activity android:name=".ClientSide.UpdateAccpunt"></activity>
+        <activity android:name=".ClientNavigation.UpdateProfile" />
         <activity android:name=".AdminSide.EditService" />
         <activity android:name=".ClientSide.ChangeMyRequest" />
         <activity android:name=".AdminSide.ViewInsideServiceRequest" />

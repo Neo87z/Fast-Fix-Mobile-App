@@ -23,7 +23,6 @@ public class TechSideRequestViewHolder extends RecyclerView.ViewHolder implement
         super(itemView);
         Title=itemView.findViewById(R.id.Title);
         Description=itemView.findViewById(R.id.Description);
-        AssingedTo=itemView.findViewById(R.id.Assingedto);
         UpdateButton=itemView.findViewById(R.id.ViewButton);
     }
 

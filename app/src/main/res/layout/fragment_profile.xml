@@ -34,10 +34,10 @@
             android:layout_width="364dp"
             android:layout_height="535dp"
             android:layout_marginTop="16dp"
-            android:layout_marginEnd="24dp"
             android:alpha="0.45"
             android:background="#020202"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/topview" />
 
         <TextView
@@ -190,26 +190,28 @@
 
         <Button
             android:id="@+id/SaveButton"
-            android:layout_width="121dp"
-            android:layout_height="45dp"
-            android:layout_marginEnd="80dp"
+            android:layout_width="133dp"
+            android:layout_height="57dp"
             android:background="@drawable/button_default"
             android:text="@string/Up"
             android:textColor="#ffff"
             android:textSize="20sp"
             app:layout_constraintBaseline_toBaselineOf="@+id/saveButton2"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.72"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <Button
             android:id="@+id/saveButton2"
-            android:layout_width="121dp"
-            android:layout_height="45dp"
-            android:layout_marginStart="80dp"
-            android:layout_marginTop="24dp"
+            android:layout_width="132dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/button_default"
             android:text="@string/deel"
             android:textColor="#ffff"
             android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.222"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView57" />
 

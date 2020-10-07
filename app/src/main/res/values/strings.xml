@@ -58,7 +58,7 @@
     <string name="MakeOffer">Make Offer</string>
     <string name="MakeRequest">Request A Service</string>
     <string name="Custname">Customer Display Name</string>
-    <string name="Title">Title</string>
+    <string name="Title22">Title</string>
     <string name="Desc">Description</string>
     <string name="Phone">Phone</string>
     <string name="deadline">Needed Before</string>
@@ -149,4 +149,13 @@
     <string name="deel">Delete Account</string>
     <string name="Up">Update Profile</string>
     <string name="teh">Technician Profile</string>
+    <string name="Userpro">User Profile</string>
+    <string name="t">Ttitle</string>
+    <string name="Title11">Title:-</string>
+    <string name="Desc11">Description :-</string>
+    <string name="v">View</string>
+    <string name="abs">About Service:-</string>
+    <string name="o">Price:-</string>
+    <string name="Title">Title</string>
+    <string name="desss">Description</string>
 </resources>
