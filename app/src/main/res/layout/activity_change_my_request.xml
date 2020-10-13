@@ -61,56 +61,52 @@
             android:id="@+id/Ex_makeofferPhone"
             android:layout_width="307dp"
             android:layout_height="35dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="56dp"
+            android:layout_marginTop="12dp"
             android:background="@drawable/textbox"
             android:gravity="center_vertical"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
             android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/Ex_DOB"
             app:layout_constraintTop_toBottomOf="@+id/textView24" />
 
         <EditText
             android:id="@+id/ex_make_description"
             android:layout_width="307dp"
             android:layout_height="35dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginEnd="56dp"
+            android:layout_marginTop="16dp"
             android:background="@drawable/textbox"
             android:gravity="center_vertical"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
             android:textSize="20sp"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/ex_makeoferTitle"
             app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
         <EditText
             android:id="@+id/ex_makeoferTitle"
             android:layout_width="307dp"
             android:layout_height="35dp"
-            android:layout_marginStart="48dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/textbox"
             android:gravity="center_vertical"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
             android:textSize="20sp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/Ex_makeofferPhone"
             app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
         <TextView
             android:id="@+id/Displayname"
             android:layout_width="307dp"
             android:layout_height="35dp"
-            android:layout_marginStart="48dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/textbox"
             android:gravity="center_vertical"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
             android:textSize="20sp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/ex_make_description"
             app:layout_constraintTop_toBottomOf="@+id/textView20" />
 
         <TextView
@@ -194,8 +190,8 @@
             android:layout_width="271dp"
             android:layout_height="58dp"
 
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="84dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="92dp"
             android:calendarViewShown="false"
             android:datePickerMode="spinner"
             app:layout_constraintEnd_toEndOf="parent"

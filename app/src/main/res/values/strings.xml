@@ -158,4 +158,6 @@
     <string name="o">Price:-</string>
     <string name="Title">Title</string>
     <string name="desss">Description</string>
+    <string name="usernmaee">Input Username</string>
+    <string name="usernmaenew">Input User Display Name</string>
 </resources>

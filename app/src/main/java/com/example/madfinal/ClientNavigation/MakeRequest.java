@@ -184,17 +184,7 @@ public class MakeRequest extends Fragment {
         Month1=Integer.toString(month);
         year1=Integer.toString(year);
         String finaldate=day1+"-"+Month1+"-"+year1;
-        if(year > 2020){
-            Toast.makeText(getContext(), "Date of Birth entered is wrong, you can enter a date in teh future", Toast.LENGTH_SHORT).show();
-            finaldate="null";
-        }
-        else if(year > 2002){
-            Toast.makeText(getContext(), "You must be atleast 18 years old to use this application", Toast.LENGTH_SHORT).show();
-            finaldate="null";
-        }
-        else{
-            return(finaldate);
-        }
+
         return(finaldate);
     }
 

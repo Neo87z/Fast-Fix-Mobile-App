@@ -65,10 +65,12 @@
         android:id="@+id/chk_televsion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
         android:text="@string/Cktele"
         android:textColor="#FFFFFF"
-        app:layout_constraintBaseline_toBaselineOf="@+id/chk_camera"
-        tools:layout_editor_absoluteX="146dp" />
+        app:layout_constraintStart_toEndOf="@+id/chk_camera"
+        app:layout_constraintTop_toBottomOf="@+id/chk_Ios2" />
 
     <CheckBox
         android:id="@+id/chk_laptops"
@@ -104,11 +106,12 @@
         android:id="@+id/chk_other"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="64dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="80dp"
         android:text="@string/CkOthers"
         android:textColor="#FFFFFF"
-        app:layout_constraintBaseline_toBaselineOf="@+id/chk_televsion"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chk_laptops" />
 
     <TextView
         android:id="@+id/textView14"

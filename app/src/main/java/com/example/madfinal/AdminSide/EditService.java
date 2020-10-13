@@ -7,7 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.example.madfinal.AdminNavigation.Hometech;
 import com.example.madfinal.Models.TechnicianServices;
 import com.example.madfinal.R;
 import com.example.madfinal.SessionManagement.SessionManagement;
@@ -78,5 +80,6 @@ public class EditService extends AppCompatActivity {
         DatabaseReference UpdateRef2= FirebaseDatabase.getInstance().getReference().child("TechnicianOfferedServices").child(ID);
         UpdateRef1.setValue(TS);
         UpdateRef2.setValue(TS);
+        Toast.makeText(this, "Data Updated", Toast.LENGTH_SHORT).show();
     }
 }

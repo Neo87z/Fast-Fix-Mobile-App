@@ -199,7 +199,7 @@
             app:layout_constraintTop_toBottomOf="@+id/usercno" />
 
         <Button
-            android:id="@+id/saveButton"
+            android:id="@+id/del"
             android:layout_width="165dp"
             android:layout_height="58dp"
             android:layout_marginStart="44dp"
@@ -210,16 +210,6 @@
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView57" />
-
-        <ImageView
-            android:id="@+id/imgpropic"
-            android:layout_width="106dp"
-            android:layout_height="88dp"
-            android:layout_marginTop="52dp"
-            android:layout_marginEnd="152dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/topview"
-            tools:src="@tools:sample/avatars" />
 
         <TextView
             android:id="@+id/txtheading"

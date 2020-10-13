@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ClientNavigation.UpdateProfile">
+    tools:context=".AdminSide.UpdateAdminProfile">
+
+
     <View
         android:id="@+id/topview"
         android:layout_width="409dp"
@@ -27,10 +29,10 @@
         android:layout_width="364dp"
         android:layout_height="535dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="24dp"
         android:alpha="0.45"
         android:background="#020202"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/topview" />
 
     <EditText
@@ -45,7 +47,7 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/textView54"
         app:layout_constraintStart_toStartOf="@+id/useruname" />
 
-    <EditText
+    <TextView
         android:id="@+id/useruname"
         android:layout_width="150dp"
         android:layout_height="30dp"
@@ -182,29 +184,17 @@
         app:layout_constraintTop_toBottomOf="@+id/topview" />
 
     <Button
-        android:id="@+id/Delet"
-        android:layout_width="121dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="216dp"
-        android:background="@drawable/button_default"
-        android:text="@string/Delete"
-        android:textColor="#ffff"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView57" />
-
-    <Button
-        android:id="@+id/saveButton3"
-        android:layout_width="121dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="52dp"
+        android:id="@+id/SaveButton"
+        android:layout_width="133dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/button_default"
         android:text="@string/Up"
         android:textColor="#ffff"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/usercno" />
 
     <ImageView
@@ -223,8 +213,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="64dp"
-        android:text="@string/teh"
+        android:layout_marginEnd="100dp"
+        android:text="@string/Userpro"
         android:textColor="#FDFBFB"
         android:textSize="30sp"
         android:textStyle="bold"
